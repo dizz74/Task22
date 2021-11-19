@@ -53,7 +53,7 @@ namespace Task22
         {
             Console.WriteLine("Считаем сумму и макс");
             long summ = 0;
-            int max = int.MinValue;
+            int max = array[0];
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] > max) max = array[i];
